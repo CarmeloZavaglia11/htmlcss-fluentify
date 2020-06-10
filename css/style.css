@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.blue{
+    background-color: #0d325a;
+    height: 400px;
+}
+
+.container-fullwidht:first-child {
+background-image: url("../img/oldman.png");
+background-size: contain;
+background-position: bottom right ;
+background-repeat: no-repeat;
+}
+
+.grey{
+    background-color: #f9f9f9;
+    height: 200px;
+}
+
+.white{
+    background-color: white;
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.nav-top{
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#logo{
+    vertical-align: bottom;
+    float: left;
+}
+
+.nav-items{
+    margin-left: 55px;
+    line-height: 44px;
+    float: left;
+}
+
+.nav-items li{
+    font-size: 13px;
+    float: left;
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.nav-items li:hover,.nav-topright h3:hover{
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.nav-topright{
+    margin-left: 100px;
+    float: left;
+}
+
+.nav-topright h3{
+    font-size: 13px;
+    line-height: 38px;
+    float: left;
+    color:grey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-topright button,.header-bottom button{
+    font-size: 15px;
+    margin-left: 25px;
+    color: white;
+    background-color: #7fb802;
+    float: left;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #4e8cb6;
+    border-radius: 10px;
+}
+
+.nav-topright button:hover,.header-bottom button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#login{
+    background-color: #0d325a;
+}
+
+.header-bottom{
+    position: absolute;
+    top: 40%;
+}
+
+.header-bottom button{
+    margin: 20px 0 0 0;
+}
+
+#titolo{
+    color: white;
+    font-size: 25px;
+    width: 65%;
+}
+
+.text{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.grey .container h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container h2:nth-child(2){
+    color: #999;
+}
+
+.box{
+    float: left;
+    width: 33.3333%;
+    padding: 20px;
+}
+
+.image-box img{
+    display: block;
+    margin: 0 auto;
+    height: 160px;
+    text-align: center;
+}
+
+.box-description{
+    margin-top: 40px;
+}
+
+.box-description h2{
+    color: #7fb802;
+    text-align: center;
+}
+
+.box-description hr{
+    width: 32px;
+    margin: 15px auto;
+}
+
+.box-description p{
+    color: #999;
+    text-align: center;
+}
