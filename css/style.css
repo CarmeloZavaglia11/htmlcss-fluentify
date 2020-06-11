@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear:both;
+}
+
+body{
+    font-family: "Roboto";
 }
 
 .blue{
@@ -18,8 +21,8 @@
 
 .container-fullwidht:first-child {
 background-image: url("../img/oldman.png");
-background-size: contain;
-background-position: bottom right ;
+background-size: 800px 300px;
+background-position: bottom right;
 background-repeat: no-repeat;
 }
 
@@ -79,7 +82,7 @@ background-repeat: no-repeat;
     font-size: 13px;
     line-height: 38px;
     float: left;
-    color:grey;
+    color:white;
     text-decoration: none;
     text-transform: uppercase;
 }
